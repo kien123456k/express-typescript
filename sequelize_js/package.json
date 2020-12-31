@@ -1,10 +1,10 @@
 {
-  "name": "Express-Typescript",
+  "name": "sequelize_js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "henshin": "nodemon server.ts",
+    "henshin": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,12 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.5.1"
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   },
   "devDependencies": {
-    "@types/express": "^4.17.9",
-    "@types/node": "^14.14.16",
-    "nodemon": "^2.0.6",
-    "typescript": "^4.1.3"
+    "morgan": "^1.10.0"
   }
 }
